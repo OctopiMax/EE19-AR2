@@ -1,0 +1,59 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* formulärets utseende */
+body {
+
+}
+form {
+ background: grey;
+ background: rgb(195,34,121);
+ background: linear-gradient(0deg, rgba(195,34,121,1) 0%, rgba(117,45,253,1) 100%);
+ margin: auto;
+ width: 500px;
+ border-radius: 10px;
+ padding: 30px;
+ display: grid;
+ grid-template-columns: 150px auto;
+}
+form label {
+    font-family: 'Inter', sans-serif;
+}
+form input{
+    font-family: 'Nanum Gothic Coding', monospace;
+    margin-bottom: 15px;
+    padding: 4px;
+    background: lightgray;
+    border: none;
+    border-radius: 3px;
+
+}
+form button{
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background: rgb(238,174,202);
+    font-size: 20px;
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+}
+form button:hover {
+    box-shadow: 0 0 20px #ffffff; 
+}
+
+form button:active{
+    background: #ffffff;
+    color: aqua;
+}
+
+
