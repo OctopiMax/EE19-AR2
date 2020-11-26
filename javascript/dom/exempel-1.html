@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kontainer">
+
+        <h1>Mixtra med webbsidan</h1>
+        <button onclick="nyTitel()">Ny titel</button>
+        <button onclick="nyFärg()">Ny Färg</button>
+
+    </div>
+
+    <script>
+        function nyTitel() {
+console.log("Bababoouey");
+
+//Ny titel
+document.title = "Marlboro";
+        }
+
+function nyFärg() {
+document.body.style.cssText = "background: red; color:blue"
+
+
+}
+
+    </script>
+</body>
+</html>

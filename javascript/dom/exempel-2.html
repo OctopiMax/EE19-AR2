@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Mörk eller Ljus</h1>
+        <button onclick="Ljus()">Ljus</button>
+        <button onclick="Mörk()">Mörk</button>
+    </div>
+
+    <script>
+
+        function Mörk() {
+            document.body.style.cssText = "background: black; color: blue"
+        }
+        function Ljus() {
+            document.body.style.cssText = "background: white; color: blue"
+        }
+    </script>
+</body>
+</html>
